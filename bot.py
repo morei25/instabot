@@ -32,6 +32,3 @@ def test_login_page(browser):
     errors = browser.find_elements_by_css_selector('#error_message')
     assert len(errors) == 0
 
-LoginPage()
-HomePage()
-test_login_page()
